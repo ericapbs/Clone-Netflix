@@ -8,4 +8,3 @@ A "Clássicosflix" apresenta alguns filmes clássicos da década de 80 permitind
 - Obter mais informações sobre o título no site do IMDB;
 - Ouvir a trilha sonora do título diretamente no Spotify.
 
-![](C:\Users\Erica Pereira\Desktop\Classicosflix.JPG)
