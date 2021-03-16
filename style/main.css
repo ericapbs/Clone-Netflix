@@ -1,0 +1,119 @@
+:root{
+    --vermelho: #e50914;       
+    --preta: #141414;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+/*elementos base*/
+body{
+    background: var(--preta);
+    font-family: 'Arial', Times, serif;
+    color: white;
+}
+
+
+header .container{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo{
+    margin-left: 5px;
+    color: var(--vermelho);
+    font-family: 'Arial Black', times;
+    font-size:60px;
+}
+
+
+header nav a{
+    text-decoration:none;
+    color:#AAA;
+    margin-right: 10px;
+    font-size: 30px;
+}
+
+header nav a:hover{
+   color:#fff; 
+}
+
+
+
+.filme-principal{
+    font-size:16px;
+    background-image: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('../img/footloosec.jpg');
+    height:1000px;
+    background-size:cover;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:flex-start;
+    margin-bottom: 10px;
+    
+}
+
+.filme-principal .descricao{
+    margin-top: 50px;
+    margin-bottom: 90px;
+    font-size: 30px;
+}
+
+.título{
+    margin-top: 15%;
+    font-size: 70px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.botao{
+    background-color: rgba(0,0,0,.50);
+    color: white;
+
+    padding: 30px 55px;
+    margin-right: 30px;
+    font-size: 23px;
+
+    cursor: pointer;
+    transition: .2s ease all;
+}
+
+.botao:hover{
+    background-color: ghostwhite;
+    color: black;
+}
+
+.botao i{
+    margin-right: 15px;
+}
+
+a{
+    color: white;
+    text-decoration-line: none;
+}
+
+a:hover{
+    color: black;
+}
+
+.container{
+    margin-left: 20px;
+}
+
+.filme-principal .container{
+    width: 100%;
+}
+
+.box-filme{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.carrosel-filmes{
+    margin-top:5px;
+}
